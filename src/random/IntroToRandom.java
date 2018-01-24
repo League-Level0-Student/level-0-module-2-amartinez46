@@ -13,6 +13,9 @@ public class IntroToRandom {
 	public static void main(String[] args) {
 		int r = 0;
 		
+		Random randy=new Random();
+				 r =randy.nextInt((88+222)+1)+-222;
+
 		//2. Now make r random. 
 		//   Create an object of the Random class
 		//   Hint: new Random().nextInt()
